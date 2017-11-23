@@ -23,7 +23,7 @@ Provider is an npm package which is part of our applicaster private npm account
 ### Updating plugin-manifest
 1. Install zappifest if you don't have it yet. [https://github.com/applicaster/zappifest](Instllation instructions)
 2. Update npm package version number inside `plugin-manifest.json` file. `dependency_version: x.x.xx`
-3. run `zappifest publish --plugin-id 781 --manifest plugin-manifest.json --access-token yourAccessToken`
+3. run `zappifest publish --manifest plugin-manifest.json --access-token yourAccessToken`
 
 ## Development
 ### Testing locally in the browser
