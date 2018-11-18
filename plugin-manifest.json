@@ -7,13 +7,14 @@
   "platform": null,
   "author_name": "Yaniv Solnik",
   "author_email": "y.solnik@applicaster.com",
-  "manifest_version": "0.1.1",
+  "manifest_version": "0.1.2",
   "name": "Wordpress Datasource",
   "description": "Wordpress API datasource",
   "type": "data_source_provider",
   "identifier": "Wordpress-ds",
   "dependency_name": "@applicaster/zapp-pipes-provider-wordpress",
-  "dependency_version": "1.0.0",
+  "dependency_version": "1.0.7",
+  "ui_builder_support": true,
   "whitelisted_account_ids": [
 
   ],
