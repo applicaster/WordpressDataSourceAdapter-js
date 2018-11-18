@@ -1,5 +1,5 @@
 export const manifest = {
-  handlers: ['categories', 'posts'],
+  handlers: ['categories', 'posts', 'test'],
   help: {
     categories: {
       description: 'retrieves a list of available categories',

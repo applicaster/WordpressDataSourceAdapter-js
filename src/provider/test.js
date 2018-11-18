@@ -1,5 +1,6 @@
 export const test = {
-  testCommand: 'wordpress://fetchData?type=categories',
+  testCommand: `wordpress://fetchData?type=test&url=test`,
+  /*testCommand: 'wordpress://fetchData?type=categories',
   requestMocks: [
     {
       host: 'http://demo.wp-api.org',
@@ -7,5 +8,5 @@ export const test = {
       path: '/wp-json/wp/v2/categories',
       expectedResponse: [{ id: 1, name: 'test category' }]
     }
-  ]
+  ]*/
 };
